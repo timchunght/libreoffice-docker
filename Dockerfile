@@ -23,4 +23,4 @@ RUN wget -q http://download.documentfoundation.org/libreoffice/stable/$VERSION/d
     && rm -f /tmp/$LIBREOFFICEPACKAGE \
     && rm -rf /tmp/LibreOffice
 
-
+RUN mv /usr/bin/libreoffice* /usr/bin/libreoffice
